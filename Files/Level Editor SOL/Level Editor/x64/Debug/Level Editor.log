@@ -1,196 +1,194 @@
 ﻿  App.cpp
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(121,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:             T=unsigned int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(150,84): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(543,24): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(553,24): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(566,24): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(578,88): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(607,137): warning C4244:  'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(629,20): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(633,88): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(654,87): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(698,16): warning C4553:  '==': result of expression not used; did you intend '='?
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(699,87): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(738,12): warning C4553:  '==': result of expression not used; did you intend '='?
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(751,86): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(777,21): warning C4305:  '=': truncation from 'double' to 'float'
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         ]
-  Source.cpp
-  Generating Code...
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         with
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:             T=int
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         ]
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         and
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         [
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:             T=float
-D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         ]
-  Level Editor.vcxproj -> D:\Github\CheapskateDev\GAD173-Break-Out\Files\Level Editor SOL\x64\Debug\Level Editor.exe
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(49,106): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(52,94): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(121,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(133,111): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,77): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:  'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(140,48): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,69): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:             T=unsigned int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(147,49): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(150,84): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(241,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(246,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(251,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(256,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,99): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:  'argument': conversion from 'const T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(261,73): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(543,24): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(553,24): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(566,24): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(578,88): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(607,137): warning C4244:  'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(629,20): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(633,88): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(654,87): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(698,16): warning C4553:  '==': result of expression not used; did you intend '='?
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(699,87): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(738,12): warning C4553:  '==': result of expression not used; did you intend '='?
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,76): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(745,59): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(751,86): warning C4244:  'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(777,21): warning C4305:  '=': truncation from 'double' to 'float'
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,79): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:  'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         with
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:             T=int
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         ]
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         and
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         [
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:             T=float
+C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\Level Editor\App.cpp(971,62): warning C4244:         ]
+  Level Editor.vcxproj -> C:\Users\Andre\Documents\GitHub\GAD173-Break-Out\Files\Level Editor SOL\x64\Debug\Level Editor.exe

@@ -40,6 +40,7 @@ bool App::Init()
 
 	scoreText.setFont(Font);
 	*/
+
 	scoreText.setPosition(Vector2f(100, 100));
 	scoreText.setCharacterSize(60);
 	scoreText.setFillColor(sf::Color::Red);
@@ -67,45 +68,7 @@ bool App::Init()
 	logo.setTexture(&logoPNG);
 	logo.setTextureRect(sf::IntRect(1, 1, 600, 200));
 
-	/*
-	//sound buffer
-	if (!brickDestroyBuffer.loadFromFile("brickDestroyBuffer.wav"))
-	{
-		return -1;
-	}
-
-	if (!paddleHitBuffer.loadFromFile("paddleHitBuffer.wav"))
-	{
-		return -1;
-	}
-
-	if (!wallHitBuffer.loadFromFile("wallHitBuffer.wav"))
-	{
-		return -1;
-	}
-
-	if (!ballMissBuffer.loadFromFile("ballMissBuffer.wav"))
-	{
-		return -1;
-	}
-
-	if (!levelUpBuffer.loadFromFile("levelUpBuffer.wav"))
-	{
-		return -1;
-	}
-
-	if (!gameOverBuffer.loadFromFile("gameOverBuffer.wav"))
-	{
-		return -1;
-	}
-	*/
-
-	/*
-	Set and play sound
-
-	sound.setBuffer(wallHitBuffer);
-	sound.play();
-	*/
+	
 
 	pauseRect.setPosition(Vector2f(30, 30));
 	pauseRect.setSize(Vector2f(100, 100));
@@ -123,11 +86,6 @@ bool App::Init()
 	int sign;
 	sign = 2 * (rand() % 2) - 1;
 
-	/*
-	//set ball direction
-	xSpeed = sign * (rand() % 100 + 50);
-	ySpeed = -100;
-	*/
 
 	gameOverRectangle.setSize(Vector2f(708, 271));
 	gameOverRectangle.setPosition(window.getSize().x / 2 - gameOverRectangle.getSize().x / 2, window.getSize().y / 3);
@@ -274,7 +232,7 @@ void App::Update()
 {
 	// compute deltaTime
 	// start of consecutive frames
-	float deltaTime = clock.restart().asSeconds();
+	deltaTime = clock.restart().asSeconds();
 
 	//update
 
@@ -332,268 +290,9 @@ void App::Update()
 		// COLLISION
 
 
-		// Paddle collision
-		if (ball.getGlobalBounds().intersects(paddle.getGlobalBounds()))
-		{
-			// testing collision side
+		
 
-			// ball x position greater
-			if (ball.getPosition().x > paddle.getPosition().x)
-			{
-				// ball y position lower
-				if (ball.getPosition().y < paddle.getPosition().y)
-				{
-					// ball y position lower than brick width
-					if (ball.getPosition().y < paddle.getPosition().y + paddle.getSize().y - 2)
-					{
-						// Bottom side
-						// Test for movement
-						if (currentPaddleSpeed > 0)
-						{
-							if (xSpeed < 0)
-							{
-								ySpeed = -ySpeed;
-								xSpeed = -xSpeed;
-							}
-							else
-							{
-								ySpeed = -ySpeed;
-							}
-						}
-						else if (currentPaddleSpeed < 0)
-						{
-							if (xSpeed > 0)
-							{
-								ySpeed = -ySpeed;
-								xSpeed = -xSpeed;
-							}
-							else
-							{
-								ySpeed = -ySpeed;
-							}
-						}
-						else
-						{
-							// change speed and direction of ball
-							ySpeed = -ySpeed;
-						}
-
-					}
-					else
-					{
-						// Right side
-						// Test for movement
-						if (currentPaddleSpeed != 0)
-						{
-							ball.setPosition(ball.getPosition().x + (paddleSpeed * deltaTime * velocity), ball.getPosition().y);
-							// change speed and direction of ball
-							xSpeed = -xSpeed;
-							ySpeed = -ySpeed;
-						}
-						else
-						{
-							// change speed and direction of ball
-							xSpeed = -xSpeed;
-							ySpeed = -ySpeed;
-						}
-
-
-					}
-				}
-				else
-				{
-					// Top side
-					// Test for movement
-					if (currentPaddleSpeed > 0)
-					{
-						if (xSpeed < 0)
-						{
-							ySpeed = -ySpeed;
-							xSpeed = -xSpeed;
-						}
-						else
-						{
-							ySpeed = -ySpeed;
-						}
-					}
-					else if (currentPaddleSpeed < 0)
-					{
-						if (xSpeed > 0)
-						{
-							ySpeed = -ySpeed;
-							xSpeed = -xSpeed;
-						}
-						else
-						{
-							ySpeed = -ySpeed;
-						}
-					}
-					else
-					{
-						// change speed and direction of ball
-						ySpeed = -ySpeed;
-					}
-
-				}
-			}
-			else
-			{
-				// Left side
-				// Test for movement
-				if (currentPaddleSpeed != 0)
-				{
-					ball.setPosition(ball.getPosition().x - (paddleSpeed * deltaTime * velocity), ball.getPosition().y);
-					// change speed and direction of ball
-					xSpeed = -xSpeed;
-					ySpeed = -ySpeed;
-				}
-				else
-				{
-					// change speed and direction of ball
-					xSpeed = -xSpeed;
-					ySpeed = -ySpeed;
-				}
-
-			}
-			//Setand play sound
-
-			//sound.setBuffer(paddleHitBuffer);
-			//sound.play();
-		}
-
-		//brick collision
-		for (int i = 0; i < R; ++i)
-		{
-			//rows
-			for (int j = 0; j < N; ++j)
-			{
-				if (ball.getGlobalBounds().intersects(bricks[i][j].getGlobalBounds()) && collidable[i][j] == true)
-				{
-					// test collision	
-					// ball x position greater
-					if (ball.getPosition().x > bricks[i][j].getPosition().x)
-					{
-						// ball y position lower
-						if (ball.getPosition().y < bricks[i][j].getPosition().y)
-						{
-							// ball y position lower than brick width
-							if (ball.getPosition().y < bricks[i][j].getPosition().y + bricks[i][j].getSize().y - 2)
-							{
-								// Bottom side
-
-								// change speed and direction of ball
-								ySpeed = -ySpeed;
-								// destroy brick
-								collidable[i][j] = false;
-							}
-							else
-							{
-								// Right side
-
-								// change speed and direction of ball
-								xSpeed = -xSpeed;
-								// destroy brick
-								collidable[i][j] = false;
-							}
-						}
-						else
-						{
-							// Top side
-
-							// change speed and direction of ball
-							ySpeed = -ySpeed;
-							// destroy brick
-							collidable[i][j] = false;
-						}
-					}
-					else
-					{
-						// Left side
-
-						// change speed and direction of ball
-						xSpeed = -xSpeed;
-						// destroy brick
-						collidable[i][j] = false;
-					}
-
-					/*
-					// change speed and direction of ball
-					ySpeed = -ySpeed;
-					// destroy brick
-					collidable[i][j] = false;
-					*/
-
-					//Setand play sound
-
-					//sound.setBuffer(brickDestroyBuffer);
-					//sound.play();
-				}
-			}
-		}
-
-		// x collision
-		// right
-		if (ball.getPosition().x > window.getSize().x - ball.getRadius() * 2)
-		{
-			// rest position
-			ball.setPosition(window.getSize().x - ball.getRadius() * 2, ball.getPosition().y);
-			// reverse speed
-			xSpeed = -xSpeed;
-			// increase velocity
-			velocity = velocity + 0.05;
-		}
-		// left
-		if (ball.getPosition().x < 0)
-		{
-			// rest position
-			ball.setPosition(0, ball.getPosition().y);
-			// reverse speed
-			xSpeed = -xSpeed;
-			// increase velocity
-			velocity = velocity + 0.05;
-		}
-
-		// y collision
-
-			// top
-		if (ball.getPosition().y < 0)
-		{
-			// rest position
-			ball.setPosition(ball.getPosition().x, 0);
-			// reverse speed
-			ySpeed = -ySpeed;
-			// increase velocity
-			velocity = velocity + 0.05;
-		}
-
-		// bottom
-		if (ball.getPosition().y > window.getSize().y + 40)
-		{
-			if (isDead == false)
-			{
-				if (livesLeft > 1)
-				{
-					isDead = true;
-					currentBallStartTimer = ballStartTimer;
-					ball.setPosition(window.getSize().x / 2.0f - ball.getRadius(), window.getSize().y * 0.65);
-					flash = true;
-					currentFlashTimer = 255;
-					screenFlasher.setFillColor(Color(255, 10, 10, 0));
-					livesLeft -= 1;
-				}
-				else
-				{
-					gameOver = true;
-					isDead = true;
-					currentBallStartTimer = ballStartTimer;
-					ball.setPosition(-100, -100);
-					flash = true;
-					currentFlashTimer = 255;
-					screenFlasher.setFillColor(Color(255, 10, 10, 0));
-					livesLeft -= 1;
-				}
-			}
-		}
+		
 
 		//screen flasher timer
 		if (flash == true)
@@ -712,39 +411,48 @@ void App::Update()
 				}
 			}
 		}
-
-		/*
-		if (resetLevel == true)
-		{
-			+livesLeft;
-			currentBallStartTimer = ballStartTimer;
-			ball.setPosition(window.getSize().x / 2.0f - ball.getRadius(), window.getSize().y * 0.65);
-
-			for (int i = 0; i < R; ++i)
-			{
-				//rows
-				for (int j = 0; j < N; ++j)
-				{
-					collidable[i][j] = true;
-				}
-			}
-		}
-		*/
 	}
 	scoreText.setString(to_string(score));
 
-	if (menu == true)
+	
+	if (currentGame == "Menu") {
+		Menu();
+	}
+	else if (currentGame == "Main Game Load") {
+		Menu();
+	}
+	else if (currentGame == "Main Game") {
+		Menu();
+	}
+	else if (currentGame == "Level Editor") {
+		Menu();
+	}
+	else if (currentGame == "Custom Level Load") {
+		Menu();
+	}
+	else if (currentGame == "Custom Level Play") {
+		Menu();
+	}
+	else {
+		Menu();
+	}
+	
+}
+
+// Code for the Menu
+void App::Menu(){
+
+	gameOver == true;
+
+	//Check mouse
+	if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
 	{
-		gameOver == true;
+		Vector2i localPosition = Mouse::getPosition(window);
 
-		//Check mouse
-		if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+		// Player clicks on Play Game
+		if (playButton.getGlobalBounds().contains(localPosition.x, localPosition.y))
 		{
-			Vector2i localPosition = Mouse::getPosition(window);
-
-			if (playButton.getGlobalBounds().contains(localPosition.x, localPosition.y))
-			{
-			menu = false;
+			currentGame == "Main Game Load";
 			gameOver = false;
 			livesLeft = 3;
 			currentBallStartTimer = ballStartTimer;
@@ -759,56 +467,44 @@ void App::Update()
 					collidable[i][j] = true;
 				}
 			}
-			}
-				
 		}
+
 	}
-	else
+}
+
+// Loads the main gameplay
+void MainGameplayLoad(){
+
+}
+
+void App:: MainGame() {
+	// Pause menu
+	pauseTimer -= deltaTime;
+
+	if (Keyboard::isKeyPressed(Keyboard::Escape))
 	{
-		pauseTimer -= deltaTime;
 
-		if (Keyboard::isKeyPressed(Keyboard::Escape))
+		if (pauseTimer <= 0)
 		{
-			
-			if (pauseTimer <= 0)
-			{
 
-				pauseGame = !pauseGame;
-				pauseTimer = 0.3;
-			}
-			
+			pauseGame = !pauseGame;
+			pauseTimer = 0.3;
 		}
+
 	}
+}
+
+// Code for the level editor
+void LevelEditor(){
+
+}
+
+void App::WriteToFile(){
+
 	
-	//srand(time(NULL))
-	// Write bricks position to file
-	if (Keyboard::isKeyPressed(Keyboard::O))
-	{
-		ofstream myfile;
+}
 
-		// Open file
-		myfile.open("saveGame.txt");
-
-		// Write to file
-
-		for (int i = 0; i < R; ++i)
-		{
-			for (int j = 0; j < N; ++j)
-			{
-				if (collidable[i][j] == true)
-				{
-					myfile << bricks[i][j].getPosition().x << "\t" << bricks[i][j].getPosition().y << endl;
-				}
-			}
-		}
-
-		// Close file
-		myfile.close();
-
-		cout << "Written to file" << endl;
-	}
-
-
+void App::ReadFromFile(){
 	// Read/Input from file
 
 	if (Keyboard::isKeyPressed(Keyboard::I))
@@ -838,71 +534,262 @@ void App::Update()
 	
 }
 
-void App::Menu()
-{
-	cout << "This is working" << endl;
-}
 
-void App::Death()
-{
-}
+// Code for genrel gameplay
+void App::BallMovement() {
 
-void App::BallMovement()
-{
 }
 
 void App::Collision()
 {
-	cout << "Collision running" << endl;
-}
+	//brick collision
+	for (int i = 0; i < R; ++i){
+		//rows
+		for (int j = 0; j < N; ++j){
+			if (ball.getGlobalBounds().intersects(bricks[i][j].getGlobalBounds()) && collidable[i][j] == true){
+				// test collision	
+				// ball x position greater
+				if (ball.getPosition().x > bricks[i][j].getPosition().x){
+					// ball y position lower
+					if (ball.getPosition().y < bricks[i][j].getPosition().y)
+					{
+						// ball y position lower than brick width
+						if (ball.getPosition().y < bricks[i][j].getPosition().y + bricks[i][j].getSize().y - 2){
+							// Bottom side
 
-void App::WriteToFile()
-{
-	//ofstream myfile;
+							// change speed and direction of ball
+							ySpeed = -ySpeed;
+							// destroy brick
+							collidable[i][j] = false;
+						}
+						else{
+							// Right side
 
-	// Open file
-	//myfile.open("example.txt");
+							// change speed and direction of ball
+							xSpeed = -xSpeed;
+							// destroy brick
+							collidable[i][j] = false;
+						}
+					}
+					else{
+						// Top side
+				
+						// change speed and direction of ball
+						ySpeed = -ySpeed;
+						// destroy brick
+						collidable[i][j] = false;
+					}
+				}
+				else{
+					// Left side
 
-	// Write to file
-	//myfile << "Writing this to a file.\n";
-
-	// Close file
-	//myfile.close();
-}
-
-void App::ReadFromFile()
-{
-	/*
-	int x, y;
-
-	ifstream myfile("example.txt");
-
-	if (myfile.is_open())
-	{
-		// check for end of file
-		while (!myfile.eof())
-		{
-			myfile >> x >> y;
-
-			cout << x << "\t" << y << endl;
+					// change speed and direction of ball
+					xSpeed = -xSpeed;
+					// destroy brick
+					collidable[i][j] = false;
+				}
+			}
 		}
 
+		// Paddle collision
+		if (ball.getGlobalBounds().intersects(paddle.getGlobalBounds())){
+			// testing collision side
+
+			// ball x position greater
+			if (ball.getPosition().x > paddle.getPosition().x){
+				// ball y position lower
+				if (ball.getPosition().y < paddle.getPosition().y){
+					// ball y position lower than brick width
+					if (ball.getPosition().y < paddle.getPosition().y + paddle.getSize().y - 2){
+						// Bottom side
+						// Test for movement
+						if (currentPaddleSpeed > 0){
+							if (xSpeed < 0){
+								ySpeed = -ySpeed;
+								xSpeed = -xSpeed;
+							}
+							else{
+								ySpeed = -ySpeed;
+							}
+						}
+						else if (currentPaddleSpeed < 0){
+							if (xSpeed > 0){
+								ySpeed = -ySpeed;
+								xSpeed = -xSpeed;
+							}
+							else{
+								ySpeed = -ySpeed;
+							}
+						}
+						else{
+							// change speed and direction of ball
+							ySpeed = -ySpeed;
+						}
+					}
+					else{
+						// Right side
+						// Test for movement
+						if (currentPaddleSpeed != 0){
+							ball.setPosition(ball.getPosition().x + (paddleSpeed * deltaTime * velocity), ball.getPosition().y);
+							// change speed and direction of ball
+							xSpeed = -xSpeed;
+							ySpeed = -ySpeed;
+						}
+						else{
+							// change speed and direction of ball
+							xSpeed = -xSpeed;
+							ySpeed = -ySpeed;
+						}
+					}
+				}
+				else{
+					// Top side
+					// Test for movement
+					if (currentPaddleSpeed > 0){
+						if (xSpeed < 0){
+							ySpeed = -ySpeed;
+							xSpeed = -xSpeed;
+						}
+						else{
+							ySpeed = -ySpeed;
+						}
+					}
+					else if (currentPaddleSpeed < 0){
+						if (xSpeed > 0){
+							ySpeed = -ySpeed;
+							xSpeed = -xSpeed;
+						}
+						else{
+							ySpeed = -ySpeed;
+						}
+					}
+					else{
+						// change speed and direction of ball
+						ySpeed = -ySpeed;
+					}
+				}
+			}
+			else{
+				// Left side
+				// Test for movement
+				if (currentPaddleSpeed != 0){
+					ball.setPosition(ball.getPosition().x - (paddleSpeed * deltaTime * velocity), ball.getPosition().y);
+					// change speed and direction of ball
+					xSpeed = -xSpeed;
+					ySpeed = -ySpeed;
+				}
+				else{
+					// change speed and direction of ball
+					xSpeed = -xSpeed;
+					ySpeed = -ySpeed;
+				}
+			}
+		}
+	}
+
+	// x collision
+	// right
+	if (ball.getPosition().x > window.getSize().x - ball.getRadius() * 2){
+		// rest position
+		ball.setPosition(window.getSize().x - ball.getRadius() * 2, ball.getPosition().y);
+		// reverse speed
+		xSpeed = -xSpeed;
+		// increase velocity
+		velocity = velocity + 0.05;
+	}
+	// left
+	if (ball.getPosition().x < 0){
+		// rest position
+		ball.setPosition(0, ball.getPosition().y);
+		// reverse speed
+		xSpeed = -xSpeed;
+		// increase velocity
+		velocity = velocity + 0.05;
+	}
+
+	// y collision
+
+		// top
+	if (ball.getPosition().y < 0){
+		// rest position
+		ball.setPosition(ball.getPosition().x, 0);
+		// reverse speed
+		ySpeed = -ySpeed;
+		// increase velocity
+		velocity = velocity + 0.05;
+	}
+
+	// bottom
+	if (ball.getPosition().y > window.getSize().y + 40){
+		if (isDead == false){
+			if (livesLeft > 1){
+				isDead = true;
+				currentBallStartTimer = ballStartTimer;
+				ball.setPosition(window.getSize().x / 2.0f - ball.getRadius(), window.getSize().y * 0.65);
+				flash = true;
+				currentFlashTimer = 255;
+				screenFlasher.setFillColor(Color(255, 10, 10, 0));
+				livesLeft -= 1;
+			}
+			else{
+				gameOver = true;
+				isDead = true;
+				currentBallStartTimer = ballStartTimer;
+				ball.setPosition(-100, -100);
+				flash = true;
+				currentFlashTimer = 255;
+				screenFlasher.setFillColor(Color(255, 10, 10, 0));
+				livesLeft -= 1;
+			}
+		}
+	}
+}
+
+void App::Death() {
+
+}
+
+void App::SaveMainGameplayProgress() {
+
+	// Write bricks position to file
+
+	if (Keyboard::isKeyPressed(Keyboard::O))
+	{
+		ofstream myfile;
+
+		// Open file
+		myfile.open("saveGame.txt");
+
+		// Write to file
+
+		for (int i = 0; i < R; ++i)
+		{
+			for (int j = 0; j < N; ++j)
+			{
+				if (collidable[i][j] == true)
+				{
+					myfile << bricks[i][j].getPosition().x << "\t" << bricks[i][j].getPosition().y << endl;
+				}
+			}
+		}
+
+		// Close file
 		myfile.close();
+
+		cout << "Written to file" << endl;
 	}
-
-	else cout << "Unable to open file";
-	*/
-	}
+}
 
 
 
-void App::Draw()
-{
+// Draws objects
+void App::Draw(){
+
 	window.clear();
 	window.setView(view);
 
 	// draw
-	if (menu == true)
+	if (currentGame == "Menu")
 	{
 		window.draw(playButton);
 		window.draw(logo);
@@ -971,17 +858,6 @@ void App::HandleEvents()
 				if (bricks[i][j].getGlobalBounds().contains(localPosition.x, localPosition.y))
 				{
 					collidable[i][j] = !collidable[i][j];
-
-					/*
-					if (collidable[i][j] == true)
-					{
-						collidable[i][j] = false;
-					}
-					else
-					{
-						collidable[i][j] = true;
-					}
-					*/
 				}
 			}
 		}

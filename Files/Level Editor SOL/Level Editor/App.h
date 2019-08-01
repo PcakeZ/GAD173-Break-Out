@@ -6,8 +6,10 @@
 
 using namespace sf;
 
+// Constant ints
 // #  of rows
 const int R = 5;
+
 // # of blocks in a row
 const int N = 8;
 
@@ -15,20 +17,27 @@ const int N = 8;
 const int L = 10;
 
 
-class App
-{
-
+class App{
 
 private:
+	// Default
 	Event event;
 	View view;
 	RenderWindow window;
+
+	// Load Shapes
+
+	// Gameplay
 	CircleShape ball;
 	RectangleShape paddle;
 	sf::RectangleShape bricks[R][N];
+	
+	// UI
 	RectangleShape screenFlasher;
 	CircleShape lives[L];
 	RectangleShape gameOverRectangle;
+
+	// Menu
 	RectangleShape playButton;
 	RectangleShape logo;
 	RectangleShape pauseRect;
@@ -36,9 +45,10 @@ private:
 	// other date members here
 
 public:
-	//start clock
+	// Start clock
 	Clock clock;
 
+	// Textures
 	Texture brick1PNG;
 	Texture brick2PNG;
 	Texture brick3PNG;
@@ -52,20 +62,15 @@ public:
 	Texture playButtonPNG;
 	Texture pausePNG;
 
+	// Fonts
 	Font Font;
+
+	// Texts
 	Text scoreText;
 
-	//SoundBuffer wallHitBuffer;
-	//SoundBuffer brickDestroyBuffer;
-	//SoundBuffer paddleHitBuffer;
-	//SoundBuffer ballMissBuffer;
-	//SoundBuffer levelUpBuffer;
-	//SoundBuffer gameOverBuffer;
-
-	//sf::Sound sound;
-	
-
 	//Changing values
+
+	// Floats
 	float velocity = 2;
 	float xSpeed = 0;
 	float ySpeed = 0;
@@ -75,63 +80,64 @@ public:
 	float flashTimer = 80;  // 100 = 1 second
 	float ballStartTimer = 3;
 	float currentBallStartTimer;
-	bool isDead = true;
-	bool flash;
+	float deltaTime;
+	float pauseTimer;
+
+	// Ints
 	int currentFlashValue;
 	int livesLeft = 3;
-	bool gameOver;
 	int level = 1;
-	bool resetLevel;
 	int blocksActive;
 	int score;
 
-	bool menu = true;
+	// Bools
+	bool isDead = true;
+	bool flash = false;
+	bool gameOver = false;
+	bool resetLevel = false;
 	bool pauseGame = false;
-	bool levelEditor;
-	float pauseTimer = false;
 
-	int xPos;
-	int yPos;
-
-	
+	// Strings
+	string currentGame = "Menu";
 
 	//Set Values
+
+	//Floats
 	float brickWidth = 140.0f;
 	float brickHeight = 20.0f;
 	float brickGapX = 15.0f;
 	float brickGapY = 10.0f;
 
+	//Bools
 	bool collidable[R][N];
-
-	//sf::RectangleShape brick(sf::Vector2f(brickWidth, brickHeight));
-
 
 
 	App(const char* title, int screenWidth, int screenHeight, int screenBpp);
 
-
-
+	// App methods
 
 	~App();
 
+	// Crimsion zombie
 	bool Init();
 	void HandleEvents();
 	void Draw();
 	void Update();
 	
-	// Custom
+	// Custom methods
 	void Menu();
+	void MainGame();
 	void Death();
 	void BallMovement();
 	void Collision();
 	void WriteToFile();
 	void ReadFromFile();
+	void SaveMainGameplayProgress();
 	// Custom end
 
+	// Crimsion zombie
 	void Run();
 	
 };
-
-
 
 // end of app class definition
